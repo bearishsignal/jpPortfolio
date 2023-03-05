@@ -1,0 +1,65 @@
+html {
+    background-color: rgba(80, 4, 23, 0.718);
+    margin: 0;
+    padding: 0;
+}
+.nav-container {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100vw; 
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    background-color: black;
+}
+nav {
+    display: flex;
+    position: fixed;
+    padding: 2px;
+    top: 0;
+    right: 0;
+    
+}
+
+nav a {
+    color: white;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 0;
+    align-items: center;
+}
+
+header {
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+.github {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    position: relative;
+    left: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    
+    opacity: 40%;
+}
+
+.about-me {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 80%;
+    text-align: center;
+}
+
